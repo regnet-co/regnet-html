@@ -1,0 +1,43 @@
+#hittaru {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 50%;
+	margin: 1em auto;
+	
+	ul {
+		margin: 1em;
+		padding: 0;
+	}
+	
+	li {
+		display: block;
+	}
+}
+
+#portvin {
+	position: fixed;
+	bottom: 1em;
+	left: 0;
+	width: 100%;
+
+	
+	ul {
+		margin: 0;
+		padding: 1em;
+	}	
+		
+	li {
+		width: 50%;
+		display: inline-block;
+	}
+	
+		.prev {
+			float: left;
+		}
+		
+		.next {
+			float: right;
+			text-align: right;
+		}
+}
