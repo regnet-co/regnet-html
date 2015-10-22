@@ -8,10 +8,10 @@ p { max-width: 45rem; margin: 0 auto 1.25em; }
 img { max-width: 100%; }
 
 /* line 24, sass/_basics.scss */
-.lefty { float: left; margin: 0 1em 1em; }
+.lefty { float: left; margin: 0 1em 1em; max-width: 28em; }
 
-/* line 29, sass/_basics.scss */
-.righty { float: right; margin: 0 1em 1em; }
+/* line 30, sass/_basics.scss */
+.righty { float: right; margin: 0 1em 1em; max-width: 28em; }
 
 /* line 1, sass/_grid.scss */
 .pad-me { padding: 1em 0.5em 0; background-clip: content-box; }
@@ -19,7 +19,7 @@ img { max-width: 100%; }
 /* line 6, sass/_grid.scss */
 .container { width: 90%; margin: 0 auto; display: block; }
 
-@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1421423896'); src: url('../fonts/Regnzidenz-Bold.eot?&1421423896#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1421423896') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1421423896') format('truetype'); font-weight: 700; }
+@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1445546295'); src: url('../fonts/Regnzidenz-Bold.eot?&1445546295#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1445546295') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1445546295') format('truetype'); font-weight: 700; }
 /* line 4, sass/_type.scss */
 .center { text-align: center; }
 
