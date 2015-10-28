@@ -19,7 +19,7 @@ img { max-width: 100%; }
 /* line 6, sass/_grid.scss */
 .container { width: 90%; margin: 0 auto; display: block; }
 
-@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1445546295'); src: url('../fonts/Regnzidenz-Bold.eot?&1445546295#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1445546295') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1445546295') format('truetype'); font-weight: 700; }
+@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1421423896'); src: url('../fonts/Regnzidenz-Bold.eot?&1421423896#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1421423896') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1421423896') format('truetype'); font-weight: 700; }
 /* line 4, sass/_type.scss */
 .center { text-align: center; }
 
@@ -51,11 +51,14 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Regnzidens-Bold'; color: #7ec5bd; }
 #portvin .next { float: right; text-align: right; }
 
 /* line 1, sass/_portfolio.scss */
-.hero { max-width: 100%; padding: 0 2.5em; margin: 2.5em 0 2.5em; }
-/* line 6, sass/_portfolio.scss */
+.hero { max-width: 100%; padding: 2.5em; }
+/* line 5, sass/_portfolio.scss */
 .hero h2 { font-size: 4em; text-align: center; position: absolute; top: 40%; left: 50%; width: 70%; margin-left: -35%; color: white; letter-spacing: -0.03em; }
 
-/* line 19, sass/_portfolio.scss */
+/* line 18, sass/_portfolio.scss */
+#hero-image { height: 100vh; width: 100vw; max-width: 100%; background-position: center center; background-size: cover; }
+
+/* line 26, sass/_portfolio.scss */
 .main-body { max-width: 60em; margin: 0 auto; }
 
 /* line 8, sass/style.scss */
