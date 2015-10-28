@@ -24,12 +24,12 @@ img { max-width: 100%; }
 .center { text-align: center; }
 
 /* line 8, sass/_type.scss */
-p { font-size: 1.25em; line-height: 1.32; padding: 1rem; }
+p { font-family: "freight-text-pro", serif; font-weight: 400; font-size: 1.25em; line-height: 1.32; padding: 1rem; color: #666; }
 
-/* line 14, sass/_type.scss */
+/* line 17, sass/_type.scss */
 h1, h2, h3, h4, h5, h6 { font-family: 'Regnzidens-Bold'; color: #7ec5bd; }
 
-/* line 19, sass/_type.scss */
+/* line 22, sass/_type.scss */
 #hittaru ul, #portvin ul { font-family: 'Regnzidens-Bold'; }
 
 /* line 1, sass/_navigation.scss */
