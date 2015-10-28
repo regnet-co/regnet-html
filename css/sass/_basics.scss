@@ -12,9 +12,22 @@ body {
 	color: $regnet-dark-green;
 }
 
-p {
-	max-width: 45rem;
-	margin: 0 auto 1.25em;
+footer {
+	background: $regnet-green;
+	padding: 2em 0 8em;
+	margin-top: 2rem;
+	
+	p {
+		-webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		-o-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-family: "regnzidens-bold";
+		font-weight: lighter;
+		font-size: 1em;
+		margin-bottom: 0;
+		color: white;
+	}
 }
 
 img {
@@ -23,12 +36,12 @@ img {
 
 .lefty {
 	float: left;
-	margin: 0 1em 1em;
-	max-width: 28em;
+	margin: 0 1em 1em 0;
+	max-width: 50%;
 }
 
 .righty {
 	float: right;
-	margin: 0 1em 1em;
-	max-width: 28em;
+	margin: 0 0 1em 1em;
+	max-width: 50%;
 }
