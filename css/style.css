@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 8, sass/_basics.scss */
 body { background: white; margin: 0; padding: 0; color: #396c65; }
 
@@ -21,7 +22,7 @@ img { max-width: 100%; }
 /* line 6, sass/_grid.scss */
 .container { width: 90%; margin: 0 auto; display: block; }
 
-@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1445546295'); src: url('../fonts/Regnzidenz-Bold.eot?&1445546295#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1445546295') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1445546295') format('truetype'); font-weight: 700; }
+@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1446113146'); src: url('../fonts/Regnzidenz-Bold.eot?&1446113146#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1446113146') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1446113146') format('truetype'); font-weight: 700; }
 /* line 4, sass/_type.scss */
 .center { text-align: center; }
 
@@ -57,22 +58,23 @@ h6 { font-size: 1em; }
 /* line 57, sass/_type.scss */
 .main-body h2, .main-body h3, .main-body h4, .main-body h5, footer h2, footer h3, footer h4, footer h5 { text-align: center; max-width: 45rem; margin: 0 auto 1.25rem; }
 
-/* line 1, sass/_navigation.scss */
+/* asså namnen :'D */
+/* line 2, sass/_navigation.scss */
 #hittaru { position: fixed; top: 0; left: 0; max-width: 50%; margin: 1em auto; }
-/* line 8, sass/_navigation.scss */
+/* line 9, sass/_navigation.scss */
 #hittaru ul { margin: 1em; padding: 0; }
-/* line 13, sass/_navigation.scss */
+/* line 14, sass/_navigation.scss */
 #hittaru li { display: block; }
 
-/* line 18, sass/_navigation.scss */
+/* line 19, sass/_navigation.scss */
 #portvin { position: fixed; bottom: 1em; left: 0; width: 100%; }
-/* line 25, sass/_navigation.scss */
+/* line 27, sass/_navigation.scss */
 #portvin ul { margin: 0; padding: 1em; }
-/* line 30, sass/_navigation.scss */
+/* line 32, sass/_navigation.scss */
 #portvin li { width: 50%; display: inline-block; }
-/* line 35, sass/_navigation.scss */
+/* line 37, sass/_navigation.scss */
 #portvin .prev { float: left; }
-/* line 39, sass/_navigation.scss */
+/* line 41, sass/_navigation.scss */
 #portvin .next { float: right; text-align: right; }
 
 /* line 1, sass/_portfolio.scss */
