@@ -22,7 +22,7 @@ img { max-width: 100%; }
 /* line 6, sass/_grid.scss */
 .container { width: 90%; margin: 0 auto; display: block; }
 
-@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1446113146'); src: url('../fonts/Regnzidenz-Bold.eot?&1446113146#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1446113146') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1446113146') format('truetype'); font-weight: 700; }
+@font-face { font-family: "Regnzidens-Bold"; src: url('../fonts/Regnzidenz-Bold.eot?1421423896'); src: url('../fonts/Regnzidenz-Bold.eot?&1421423896#iefix') format('embedded-opentype'), url('../fonts/Regnzidenz-Bold.woff?1421423896') format('woff'), url('../fonts/Regnzidenz-Bold.ttf?1421423896') format('truetype'); font-weight: 700; }
 /* line 4, sass/_type.scss */
 .center { text-align: center; }
 
@@ -91,11 +91,11 @@ h6 { font-size: 1em; }
 .main-body img { margin-top: 0; margin-bottom: 2rem; }
 
 /* line 37, sass/_portfolio.scss */
-aside { display: block; text-align: center; }
-/* line 41, sass/_portfolio.scss */
-aside p { display: inline-block; }
-/* line 45, sass/_portfolio.scss */
-aside h3 { display: inline-block; font-size: 1em; text-transform: uppercase; text-align: left; }
+aside.infurmation { display: block; text-align: center; margin-top: -0.5em; margin-bottom: 0.5em; }
+/* line 43, sass/_portfolio.scss */
+aside.infurmation p { display: inline-block; }
+/* line 47, sass/_portfolio.scss */
+aside.infurmation h3 { display: inline-block; font-size: 1em; text-transform: uppercase; text-align: left; }
 
 /* line 8, sass/style.scss */
 #regnet-logo { position: fixed; width: 100%; top: 1.3em; left: 50%; margin-left: -50%; z-index: 1000; }
