@@ -1,3 +1,9 @@
 **/.sass-cache
 **/.sass-cache/*
 .sass-cache/
+.DS_Store
+
+craft/app/
+craft/plugins/
+craft/storage/
+craft/config/db.php
